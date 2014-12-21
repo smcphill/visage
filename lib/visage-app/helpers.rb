@@ -35,6 +35,10 @@ module Sinatra
   end
 
   module RequireJSHelper
+    def include_baseurl
+      "window.visage_baseurl = '#{request.script_name[1..request.script_name.length]}';"
+    end
+
     def require_js(filename)
       @js_filenames ||= []
       @js_filenames << filename
