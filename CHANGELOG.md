@@ -1,3 +1,7 @@
+2.1.1 - 2012/12/21
+ - Expose the rack server's `BaseUri` to underlying javascript
+ - Fixed some non-portable links in layout.haml
+
 2.1.0 - 2012/04/20
  - Add support for drawing 95th percentile lines on graphs
    Thanks to Jesse Reynolds for the feature addition!
@@ -26,4 +30,3 @@
 1.0.0 - 2011/06/11
 
  - 1.0.0 release! Production ready.
-

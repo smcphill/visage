@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    visage-app (2.1.0)
+    visage-app (2.1.1)
       activemodel (~> 3.2.12)
       errand (= 0.8.0)
       haml
